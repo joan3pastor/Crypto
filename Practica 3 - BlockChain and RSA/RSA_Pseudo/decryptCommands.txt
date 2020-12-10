@@ -1,0 +1,7 @@
+Current dir = /"RSA Pseudo"
+
+Decrypt AES Key:
+> openssl rsautl -decrypt -inkey ./out/RSAprivateKey.pem -in ./bin/joan.marc.pastor_RSA_pseudo.enc -out ./out/AESkey.dec
+
+Decrypt AES Message:
+> openssl enc -d -aes-128-cbc -pbkdf2 -kfile ./out/AESkey.dec -in ./bin/joan.marc.pastor_AES_pseudo.enc -out ./out/AESmessage.dec

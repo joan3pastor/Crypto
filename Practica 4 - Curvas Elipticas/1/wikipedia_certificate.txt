@@ -1,0 +1,94 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0e:23:95:4e:00:e0:38:04:80:bd:b8:99:e3:fa:e3:90
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 High Assurance Server CA
+        Validity
+            Not Before: Nov 12 00:00:00 2019 GMT
+            Not After : Oct  6 12:00:00 2020 GMT
+        Subject: C=US, ST=California, L=San Francisco, O=Wikimedia Foundation, Inc., CN=*.wikipedia.org
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:0b:05:a8:2d:f4:d7:c0:47:59:a4:5f:d4:cc:66:
+                    63:de:5a:9e:2f:bf:06:6a:c6:ae:ac:fc:51:ff:96:
+                    6f:a1:6e:6b:61:29:dd:03:c4:bd:d9:64:6d:6d:f9:
+                    25:59:4b:d4:f5:9c:91:50:3e:2d:b1:77:2c:fb:b5:
+                    fb:ce:2c:ff:28
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:51:68:FF:90:AF:02:07:75:3C:CC:D9:65:64:62:A2:12:B8:59:72:3B
+
+            X509v3 Subject Key Identifier: 
+                C7:AF:BC:98:56:62:26:68:68:1E:81:3D:E7:C1:70:7F:53:B8:30:89
+            X509v3 Subject Alternative Name: 
+                DNS:*.wikipedia.org, DNS:*.wikimedia.org, DNS:*.wmfusercontent.org, DNS:*.wikimediafoundation.org, DNS:*.wiktionary.org, DNS:*.wikivoyage.org, DNS:*.wikiversity.org, DNS:*.wikisource.org, DNS:*.wikiquote.org, DNS:*.wikinews.org, DNS:*.wikidata.org, DNS:*.wikibooks.org, DNS:wikimedia.org, DNS:*.mediawiki.org, DNS:wikipedia.org, DNS:wikiquote.org, DNS:mediawiki.org, DNS:wmfusercontent.org, DNS:w.wiki, DNS:wikimediafoundation.org, DNS:wikibooks.org, DNS:wiktionary.org, DNS:wikivoyage.org, DNS:wikidata.org, DNS:wikiversity.org, DNS:wikisource.org, DNS:wikinews.org, DNS:*.m.wikipedia.org, DNS:*.m.wiktionary.org, DNS:*.m.wikivoyage.org, DNS:*.m.wikiquote.org, DNS:*.m.wikiversity.org, DNS:*.m.wikisource.org, DNS:*.m.wikimedia.org, DNS:*.m.wikinews.org, DNS:*.m.wikidata.org, DNS:*.m.wikibooks.org, DNS:*.planet.wikimedia.org, DNS:*.m.mediawiki.org
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl3.digicert.com/sha2-ha-server-g6.crl
+
+                Full Name:
+                  URI:http://crl4.digicert.com/sha2-ha-server-g6.crl
+
+            X509v3 Certificate Policies: 
+                Policy: 2.16.840.1.114412.1.1
+                  CPS: https://www.digicert.com/CPS
+                Policy: 2.23.140.1.2.2
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.digicert.com
+                CA Issuers - URI:http://cacerts.digicert.com/DigiCertSHA2HighAssuranceServerCA.crt
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : A4:B9:09:90:B4:18:58:14:87:BB:13:A2:CC:67:70:0A:
+                                3C:35:98:04:F9:1B:DF:B8:E3:77:CD:0E:C8:0D:DC:10
+                    Timestamp : Nov 12 18:04:02.556 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:83:32:F7:E7:57:69:56:B2:B7:2F:30:
+                                08:BC:44:9B:7B:A8:CE:85:B6:AA:7F:0C:FA:14:18:AD:
+                                C3:35:15:5A:0E:02:20:2A:17:2D:FC:D8:0D:CA:04:13:
+                                E9:95:C6:9D:81:1A:FC:7B:14:90:63:A9:31:B4:DA:58:
+                                9B:F6:C3:8A:94:01:C6
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : 5E:A7:73:F9:DF:56:C0:E7:B5:36:48:7D:D0:49:E0:32:
+                                7A:91:9A:0C:84:A1:12:12:84:18:75:96:81:71:45:58
+                    Timestamp : Nov 12 18:04:02.539 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:72:7D:55:D1:B9:95:81:D7:BB:5D:09:86:
+                                62:6C:76:C7:92:7E:2A:AE:32:4B:C1:F4:CE:96:60:60:
+                                37:50:31:7C:02:20:0D:B3:A1:36:67:F6:07:02:80:5B:
+                                48:8C:D3:C3:FF:53:6B:FC:9E:AF:67:0D:0C:B0:EA:DF:
+                                AA:47:0E:D1:E9:3D
+    Signature Algorithm: sha256WithRSAEncryption
+         4a:4e:12:77:b9:d5:34:6a:72:1f:57:21:f7:ec:5a:17:f0:c8:
+         21:c7:0a:44:f8:ed:79:67:a2:02:35:4d:ef:dc:de:24:79:2e:
+         77:ca:5d:c2:5b:fa:7b:6c:e0:6d:82:be:09:e5:28:dd:0d:fe:
+         a5:9b:f3:ac:9d:9f:68:4d:58:d6:07:c1:8f:0d:6b:0d:7c:66:
+         21:e7:e9:0c:2e:29:e5:8e:49:17:71:c3:d1:a3:2e:b0:1b:12:
+         74:63:1c:06:9b:5f:2c:04:0c:72:02:98:fd:65:fc:ef:4b:2d:
+         ab:33:71:c2:b8:73:92:f7:9d:85:18:d0:c4:83:e2:23:2c:f5:
+         11:80:00:09:f6:28:09:48:39:ef:ca:27:72:fe:30:8c:d0:d2:
+         c2:75:65:58:39:12:2f:29:bc:07:6d:ee:c0:d4:a3:30:70:9c:
+         1b:24:12:2c:44:23:ae:51:5d:cb:c0:9e:9c:7c:37:0c:c1:65:
+         80:e8:e2:23:8b:7b:a8:2e:27:ce:73:54:9f:54:ec:a4:20:3d:
+         0c:00:0d:74:e2:ac:f2:1e:86:15:7b:1a:51:33:fb:0f:45:e1:
+         e9:77:b9:5c:8c:d6:f6:42:ad:f3:56:c3:61:b3:21:d5:b1:09:
+         e1:60:1f:1d:e6:6e:ec:ed:97:72:43:83:d1:ec:59:a1:02:f9:
+         5e:98:4d:c0

@@ -1,0 +1,90 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            e5:e2:1f:79:ed:70:a7:d9:03:00:00:00:00:66:54:ae
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Google Trust Services, CN=GTS CA 1O1
+        Validity
+            Not Before: Dec  3 14:48:49 2019 GMT
+            Not After : Feb 25 14:48:49 2020 GMT
+        Subject: C=US, ST=California, L=Mountain View, O=Google LLC, CN=*.google.com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:ad:a5:bd:e2:5e:07:00:09:b3:4c:8a:a2:54:c4:
+                    35:12:83:83:67:65:fe:57:b8:df:86:c9:18:51:54:
+                    f0:f3:f4:17:ca:53:26:38:ff:f1:9a:4a:96:d9:51:
+                    e9:ed:b1:8d:27:24:26:49:03:a4:e0:73:4b:a1:a3:
+                    84:67:45:91:33
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                CA:C3:1A:B4:73:AD:9E:A8:5D:EA:15:95:7B:C5:74:3A:DD:5F:8C:D1
+            X509v3 Authority Key Identifier: 
+                keyid:98:D1:F8:6E:10:EB:CF:9B:EC:60:9F:18:90:1B:A0:EB:7D:09:FD:2B
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.pki.goog/gts1o1
+                CA Issuers - URI:http://pki.goog/gsr2/GTS1O1.crt
+
+            X509v3 Subject Alternative Name: 
+                DNS:*.google.com, DNS:*.android.com, DNS:*.appengine.google.com, DNS:*.cloud.google.com, DNS:*.crowdsource.google.com, DNS:*.g.co, DNS:*.gcp.gvt2.com, DNS:*.gcpcdn.gvt1.com, DNS:*.ggpht.cn, DNS:*.gkecnapps.cn, DNS:*.google-analytics.com, DNS:*.google.ca, DNS:*.google.cl, DNS:*.google.co.in, DNS:*.google.co.jp, DNS:*.google.co.uk, DNS:*.google.com.ar, DNS:*.google.com.au, DNS:*.google.com.br, DNS:*.google.com.co, DNS:*.google.com.mx, DNS:*.google.com.tr, DNS:*.google.com.vn, DNS:*.google.de, DNS:*.google.es, DNS:*.google.fr, DNS:*.google.hu, DNS:*.google.it, DNS:*.google.nl, DNS:*.google.pl, DNS:*.google.pt, DNS:*.googleadapis.com, DNS:*.googleapis.cn, DNS:*.googlecnapps.cn, DNS:*.googlecommerce.com, DNS:*.googlevideo.com, DNS:*.gstatic.cn, DNS:*.gstatic.com, DNS:*.gstaticcnapps.cn, DNS:*.gvt1.com, DNS:*.gvt2.com, DNS:*.metric.gstatic.com, DNS:*.urchin.com, DNS:*.url.google.com, DNS:*.wear.gkecnapps.cn, DNS:*.youtube-nocookie.com, DNS:*.youtube.com, DNS:*.youtubeeducation.com, DNS:*.youtubekids.com, DNS:*.yt.be, DNS:*.ytimg.com, DNS:android.clients.google.com, DNS:android.com, DNS:developer.android.google.cn, DNS:developers.android.google.cn, DNS:g.co, DNS:ggpht.cn, DNS:gkecnapps.cn, DNS:goo.gl, DNS:google-analytics.com, DNS:google.com, DNS:googlecnapps.cn, DNS:googlecommerce.com, DNS:source.android.google.cn, DNS:urchin.com, DNS:www.goo.gl, DNS:youtu.be, DNS:youtube.com, DNS:youtubeeducation.com, DNS:youtubekids.com, DNS:yt.be
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.2
+                Policy: 1.3.6.1.4.1.11129.2.5.3
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.pki.goog/GTS1O1.crl
+
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : B2:1E:05:CC:8B:A2:CD:8A:20:4E:87:66:F9:2B:B9:8A:
+                                25:20:67:6B:DA:FA:70:E7:B2:49:53:2D:EF:8B:90:5E
+                    Timestamp : Dec  3 15:49:01.891 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:CA:BA:13:07:1D:25:4C:9B:BB:F8:3D:
+                                93:39:CE:C5:B7:36:41:74:9C:32:3C:5A:FB:B2:C8:B7:
+                                85:A9:BB:E2:EC:02:20:2C:9E:5E:01:58:5D:9C:88:FF:
+                                68:80:EA:40:72:8E:7B:A5:8D:A6:E9:F8:36:00:54:DA:
+                                0D:81:C1:41:D7:45:D7
+                Signed Certificate Timestamp:
+                    Version   : v1(0)
+                    Log ID    : 5E:A7:73:F9:DF:56:C0:E7:B5:36:48:7D:D0:49:E0:32:
+                                7A:91:9A:0C:84:A1:12:12:84:18:75:96:81:71:45:58
+                    Timestamp : Dec  3 15:49:01.930 2019 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:58:A9:D0:27:77:C9:E8:B6:C5:5E:89:93:
+                                BA:44:53:C5:77:1F:18:D4:94:AA:82:F1:F2:45:AF:F2:
+                                74:43:35:05:02:21:00:86:4A:7A:B4:21:88:6A:02:22:
+                                06:08:5E:0F:EE:51:35:D7:3B:E2:E2:7E:FE:E8:A6:AA:
+                                68:8B:F7:41:39:66:4B
+    Signature Algorithm: sha256WithRSAEncryption
+         3b:87:8e:f2:46:f0:d3:90:d5:85:1f:e6:2c:c5:1f:0f:57:6f:
+         67:16:ef:eb:a1:1f:aa:81:42:fd:6f:ff:e1:88:01:0c:da:aa:
+         3c:46:16:c7:b3:bf:c8:bf:49:d3:03:92:f4:d4:f8:96:49:9e:
+         e2:8f:e9:f8:dd:13:25:63:8f:6e:3e:ae:21:58:ee:57:7a:b3:
+         1b:4f:c6:19:b1:22:62:41:cb:ed:63:86:74:3f:56:15:42:76:
+         1c:19:cc:9a:85:a2:1a:5d:d2:19:89:c7:fe:2f:e7:ca:a1:b8:
+         9b:cd:f3:8f:d4:f3:41:29:1b:77:8f:ae:a6:df:d8:73:be:c6:
+         3a:b2:92:59:fd:f8:28:0e:8a:f0:82:46:b4:95:27:e1:17:98:
+         07:e1:12:da:25:83:05:02:5f:20:a5:6a:37:3d:ae:2a:69:02:
+         29:28:9c:36:ed:87:1d:55:96:68:eb:8f:36:01:41:71:4d:be:
+         7a:2c:7b:ad:d0:e2:67:91:7a:ba:e5:0b:69:1a:46:de:5b:64:
+         e0:8c:c0:4d:c2:94:e3:d4:6a:5f:4b:dc:81:98:b1:a3:04:b7:
+         33:fc:fa:6a:9a:20:5e:37:ab:9d:c4:31:1e:d2:7a:ef:ad:15:
+         05:f7:d3:55:3d:68:5f:f3:ea:be:2c:89:14:7f:ad:06:af:65:
+         77:65:f5:5f

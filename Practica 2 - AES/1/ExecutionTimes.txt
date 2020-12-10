@@ -1,0 +1,24 @@
+a = 1..255 & b = 0x02 
+	GF_product_p = 0.997558 milliseconds
+	GF_product_t = 0.951904 milliseconds
+	
+a = 1..255 & b = 0x03
+	GF_product_p = 0.997802 milliseconds
+	GF_product_t = 0.997558 milliseconds
+	
+a = 1..255 & b = 0x09
+	GF_product_p = 1.025146 milliseconds
+	GF_product_t = 0.996582 milliseconds
+	
+a = 1..255 & b = 0x0B
+	GF_product_p = 0.997314 milliseconds
+	GF_product_t = 0.997802 milliseconds
+	
+a = 1..255 & b = 0x0D
+	GF_product_p = 0.997802 milliseconds
+	GF_product_t = 0.994628 milliseconds
+	
+a = 1..255 & b = 0x0E
+	GF_product_p = 0.994140 milliseconds
+	GF_product_t = 0.922607 milliseconds
+	
